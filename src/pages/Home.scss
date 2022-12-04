@@ -6,6 +6,7 @@ main {
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 3%;
+  padding-bottom: 2%;
   background: url(../media//billboard-bg.png);
   background-position: center;
   background-size: cover;
@@ -36,7 +37,7 @@ h1 {
   font-family: "Gotham";
   line-height: 65px;
   letter-spacing: -3px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 
@@ -90,4 +91,8 @@ a {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.spotify-logo{
+    width: 130px;
 }
