@@ -1,6 +1,7 @@
 import "./Home.scss";
 import logo from "../media/logo.svg";
-import billboard_img from "../media/billboard-img.png";
+import lines from "../media/lines.svg";
+import Carousel from "../Components/Carousel";
 
 const Home = () => {
   return (
@@ -10,15 +11,14 @@ const Home = () => {
       <div className="main-content">
         <div className="main-content-left">
           <h1>
-            Log in with your Spotify account <br /> and get ready to give your
-            <br />
-            favourite artists their flowers.
+            Host your own award show using your Spotify account.
           </h1>
-          <a>Begin Show</a>
+          <a>BEGIN SHOW</a>
         </div>
 
-        <img src={billboard_img} className="billboard_img" />
+       <Carousel/>
       </div>
+
     </main>
   );
 };

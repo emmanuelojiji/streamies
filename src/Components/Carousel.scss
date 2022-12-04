@@ -1,0 +1,16 @@
+
+.carousel-container {
+    position: relative;
+  }
+  
+  .image-bg {
+    width: 550px;
+  }
+  
+  .image-fg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+  }
