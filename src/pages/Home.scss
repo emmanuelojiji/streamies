@@ -1,0 +1,46 @@
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0e0e0e;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 3%;
+  background: url(../media//billboard-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 120px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  flex:1;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  font-family: "Gotham";
+  line-height: 65px;
+  letter-spacing: -3px;
+  margin-bottom: 50px;
+}
+
+.billboard_img {
+  width: 500px;
+}
+
+a {
+  background: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
