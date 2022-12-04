@@ -1,7 +1,6 @@
 import "./Home.scss";
 import spotify_logo from "../media/spotify-logo.png";
 import logo from "../media/logo.svg";
-import lines from "../media/lines.svg";
 import Carousel from "../Components/Carousel";
 
 const Home = () => {
