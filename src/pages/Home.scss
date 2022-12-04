@@ -19,6 +19,16 @@ main {
   animation: AnimationName 6s ease infinite;
 }
 
+@font-face {
+  font-family: "gotham-black";
+  src: url(../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: "gotham-medium";
+  src: url(../fonts/GothamPro-Medium.woff);
+}
+
 .logo {
   width: 120px;
 }
@@ -34,12 +44,11 @@ main {
 h1 {
   color: white;
   font-size: 55px;
-  font-family: "Gotham";
+  font-family: "gotham-medium";
   line-height: 65px;
   letter-spacing: -3px;
   margin-bottom: 20px;
 }
-
 
 a {
   background: white;
@@ -93,6 +102,6 @@ a {
   }
 }
 
-.spotify-logo{
-    width: 130px;
+.spotify-logo {
+  width: 130px;
 }
