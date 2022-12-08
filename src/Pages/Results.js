@@ -7,7 +7,11 @@ const Results = () => {
     <div className="Results">
       <Logo />
       <div className="slide-container">
-        <ArtistCard />
+        <ArtistCard
+          category="Album of the Year"
+          projectName="Essence"
+          artist="Tems"
+        />
         <ArtistCard />
         <ArtistCard />
       </div>
