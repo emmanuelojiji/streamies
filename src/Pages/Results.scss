@@ -13,7 +13,12 @@
     flex: 1;
     width: 100%;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     overflow: scroll;
+  }
+
+  .logo{
+    margin-bottom: 30px;
   }
 }
