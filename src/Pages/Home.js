@@ -1,14 +1,14 @@
 import "./global.scss";
 import "./Home.scss";
 import spotify_logo from "../media/spotify-logo.png";
-import logo from "../media/logo.svg";
 import Carousel from "../Components/Carousel";
 import { Link } from "react-router-dom";
+import Logo from "../Components/Logo";
 
 const Home = () => {
   return (
     <main>
-      <img src={logo} className="logo" />
+      <Logo />
 
       <div className="main-content">
         <div className="main-content-left">
