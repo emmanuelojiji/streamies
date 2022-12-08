@@ -19,14 +19,8 @@ main {
   animation: AnimationName 6s ease infinite;
 }
 
-@font-face {
-  font-family: "gotham-black";
-  src: url(../fonts/GothamPro-Black.woff);
-}
-
-@font-face {
-  font-family: "gotham-medium";
-  src: url(../fonts/GothamPro-Medium.woff);
+h1{
+    color:white;
 }
 
 .logo {
@@ -41,33 +35,7 @@ main {
   align-items: center;
 }
 
-h1 {
-  color: white;
-  font-size: 55px;
-  font-family: "gotham-medium";
-  font-weight: bold;
-  line-height: 65px;
-  letter-spacing: -3px;
-  margin-bottom: 20px;
-}
 
-a {
-  background: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 500px;
-  display: block;
-  width: fit-content;
-  transition: 0.2s ease-in-out;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
 
 @-webkit-keyframes AnimationName {
   0% {

@@ -1,0 +1,27 @@
+h1 {
+    font-size: 55px;
+    font-family: "gotham-medium";
+    font-weight: bold;
+    line-height: 65px;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+  }
+
+
+.button {
+    background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 500px;
+    display: block;
+    width: fit-content;
+    transition: 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }

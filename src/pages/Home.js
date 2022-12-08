@@ -1,3 +1,4 @@
+import "./global.scss";
 import "./Home.scss";
 import spotify_logo from "../media/spotify-logo.png";
 import logo from "../media/logo.svg";
@@ -11,7 +12,7 @@ const Home = () => {
       <div className="main-content">
         <div className="main-content-left">
           <h1>Host your own award show using your Spotify account.</h1>
-          <a>BEGIN SHOW</a>
+          <a className="button">BEGIN SHOW</a>
         </div>
 
         <Carousel />
