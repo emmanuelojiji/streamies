@@ -4,6 +4,7 @@
   min-width: 100%;
   padding-top: 30px;
   display: flex;
+  scroll-snap-align: center;
 
   img{
     width: 400px;
@@ -17,6 +18,7 @@
   .nominee-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     img{
         width: 150px;
     }

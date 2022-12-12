@@ -13,9 +13,10 @@
     flex: 1;
     width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 300px;
     justify-content: space-between;
     overflow: scroll;
+    scroll-snap-type: x mandatory;
   }
 
   .logo{

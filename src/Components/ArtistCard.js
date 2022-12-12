@@ -29,6 +29,12 @@ const ArtistCard = ({ category, projectName, artist }) => {
             <h3>Album Name</h3>
             <h3>Artist</h3>
           </div>
+          <div>
+            <img src={album} />
+            <h3>Album Name</h3>
+            <h3>Artist</h3>
+          </div>
+          
         </div>
       </div>
     </div>
